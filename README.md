@@ -38,10 +38,7 @@ from faker import Faker
 ## How to run
 
 ```python
-base_filename = "data.csv"
-reference_filename = "station_coordinates.csv"
-common_column_name = "STATION_ID"
-output_filename = "finaldata.csv"
+  databasename = "fakeClientDATA.db"
 
-combine_csv_files(base_filename, reference_filename, common_column_name, output_filename)
+  createFakeCustomers(databasename, max_clients=100, max_age=60)
 ```
