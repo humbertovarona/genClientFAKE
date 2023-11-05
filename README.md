@@ -1,6 +1,6 @@
 # genClientFAKE
 
-Generate SQLite database with fake client
+Generate SQLite database with fake clients
 
 # Version
 
